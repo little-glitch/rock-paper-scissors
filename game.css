@@ -1,0 +1,26 @@
+.image1{
+    transition: transform .2s;
+    width:480px;
+    height:400px;
+    position: absolute;
+    left: 450px;
+    top: 0px;
+}
+.image1:hover{
+    transform:scale(1.1);
+}
+
+.image2{
+    transition: transform .2s;
+    width:100px;
+    height:100px;
+    position: absolute;
+    left: 645px;
+    top: 400px;
+}
+.image2:hover{
+    transform:scale(1.5);
+}
+body {
+ background-color: #3d286d;
+}
